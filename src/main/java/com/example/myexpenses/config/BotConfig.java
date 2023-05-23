@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Data
 public class BotConfig {
     @Value("${bot.name}")
-    String botName;
+    String botUserName;
     @Value("${bot.token}")
     String token;
 }
